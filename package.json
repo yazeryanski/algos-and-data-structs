@@ -1,0 +1,16 @@
+{
+  "name": "algos-and-data-structs",
+  "version": "1.0.0",
+  "description": "Algorithms and Data Structures. My learning process.",
+  "author": "Narek Yazeryan",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
