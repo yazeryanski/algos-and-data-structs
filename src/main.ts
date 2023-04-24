@@ -1,1 +1,3 @@
-console.log('HEllo world')
+import algorithms from "./algorithms/algorithms";
+
+
