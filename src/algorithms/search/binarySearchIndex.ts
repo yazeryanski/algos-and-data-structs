@@ -6,12 +6,10 @@ const binarySearchIndex = <T>(
 ): number => {
   // Invalid Case
   if (array.length <= 0) return -1;
-
   
   // Base Case
   const pivotIndex = getPivot(prevStart, prevEnd);
   const pivot = array[pivotIndex];
-  console.log('PIVOT', pivotIndex, ' - ', pivot);
   if (pivot === search) return pivotIndex;
 
   const start = pivot > search ? prevStart : pivotIndex;
